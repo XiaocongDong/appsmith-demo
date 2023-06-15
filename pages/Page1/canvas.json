@@ -859,7 +859,7 @@
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "mobileBottomRow": 21,
-                      "widgetName": "ThisIsTheEmailName",
+                      "widgetName": "ThisIsTheEmailNamessss",
                       "displayName": "Input",
                       "searchTags": [
                         "form",
