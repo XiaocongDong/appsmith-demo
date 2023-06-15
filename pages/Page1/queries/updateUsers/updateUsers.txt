@@ -1,0 +1,5 @@
+UPDATE users 
+SET name = {{nameInput.text}}, 
+email = {{email.inputText}}, 
+dob = {{dobInput.selectedDate}}
+WHERE id = {{usersTables.selectedRow.id}} 
