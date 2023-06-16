@@ -120,7 +120,7 @@
                 0
               ],
               "mobileBottomRow": 49,
-              "widgetName": "usersTable",
+              "widgetName": "usersTables",
               "defaultPageSize": 0,
               "columnOrder": [
                 "id",
@@ -172,7 +172,7 @@
                   "label": "id",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{usersTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
+                  "computedValue": "{{usersTables.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
                   "sticky": "",
                   "validation": {}
                 },
@@ -199,7 +199,7 @@
                   "label": "gender",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{usersTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"gender\"]))}}",
+                  "computedValue": "{{usersTables.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"gender\"]))}}",
                   "sticky": "",
                   "validation": {}
                 },
@@ -226,7 +226,7 @@
                   "label": "latitude",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{usersTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"latitude\"]))}}",
+                  "computedValue": "{{usersTables.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"latitude\"]))}}",
                   "sticky": "",
                   "validation": {}
                 },
@@ -253,7 +253,7 @@
                   "label": "longitude",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{usersTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"longitude\"]))}}",
+                  "computedValue": "{{usersTables.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"longitude\"]))}}",
                   "sticky": "",
                   "validation": {}
                 },
@@ -280,7 +280,7 @@
                   "label": "dob",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{usersTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"dob\"]))}}",
+                  "computedValue": "{{usersTables.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"dob\"]))}}",
                   "sticky": "",
                   "validation": {}
                 },
@@ -307,7 +307,7 @@
                   "label": "phone",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{usersTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"phone\"]))}}",
+                  "computedValue": "{{usersTables.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"phone\"]))}}",
                   "sticky": "",
                   "validation": {}
                 },
@@ -334,7 +334,7 @@
                   "label": "email",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{usersTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"email\"]))}}",
+                  "computedValue": "{{usersTables.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"email\"]))}}",
                   "sticky": "",
                   "validation": {}
                 },
@@ -361,7 +361,7 @@
                   "label": "image",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{usersTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"image\"]))}}",
+                  "computedValue": "{{usersTables.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"image\"]))}}",
                   "sticky": "",
                   "validation": {}
                 },
@@ -388,7 +388,7 @@
                   "label": "country",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{usersTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"country\"]))}}",
+                  "computedValue": "{{usersTables.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"country\"]))}}",
                   "sticky": "",
                   "validation": {}
                 },
@@ -415,7 +415,7 @@
                   "label": "name",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{usersTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"name\"]))}}",
+                  "computedValue": "{{usersTables.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"name\"]))}}",
                   "sticky": "",
                   "validation": {}
                 }
