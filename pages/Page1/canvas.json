@@ -864,7 +864,7 @@
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "mobileBottomRow": 21,
-                      "widgetName": "This is some commit that can not be changed",
+                      "widgetName": "We are the world",
                       "displayName": "Input",
                       "searchTags": [
                         "form",
