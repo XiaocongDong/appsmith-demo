@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 680,
+          "bottomRow": 690,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -454,7 +454,7 @@
                 "group"
               ],
               "topRow": 29,
-              "bottomRow": 68,
+              "bottomRow": 69,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -477,7 +477,7 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 390,
+                  "bottomRow": 400,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -567,7 +567,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 46,
+                      "leftColumn": 22,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -580,7 +580,7 @@
                       "isDisabled": false,
                       "key": "q41ylrz18h",
                       "isDeprecated": false,
-                      "rightColumn": 62,
+                      "rightColumn": 38,
                       "isDefaultClickDisabled": true,
                       "widgetId": "30d705pe7p",
                       "minWidth": 120,
@@ -891,6 +891,72 @@
                       "maxDynamicHeight": 9000,
                       "iconAlign": "left",
                       "defaultText": "{{usersTables.selectedRow.email}}",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
+                      "iconSVG": "/static/media/icon.d0ce957b6c4640f8a7418ce846ee200e.svg",
+                      "topRow": 31,
+                      "labelWidth": 5,
+                      "type": "INPUT_WIDGET_V2",
+                      "animateLoading": true,
+                      "resetOnSubmit": true,
+                      "leftColumn": 38,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "defaultText"
+                        }
+                      ],
+                      "labelStyle": "",
+                      "inputType": "TEXT",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "dynamicHeight": "FIXED",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "showStepArrows": false,
+                      "isVisible": true,
+                      "version": 2,
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "mobileBottomRow": 38,
+                      "widgetName": "Input1",
+                      "displayName": "Input",
+                      "searchTags": [
+                        "form",
+                        "text input",
+                        "number",
+                        "textarea"
+                      ],
+                      "bottomRow": 38,
+                      "parentRowSpace": 10,
+                      "autoFocus": false,
+                      "hideCard": false,
+                      "mobileRightColumn": 58,
+                      "parentColumnSpace": 5.33447265625,
+                      "dynamicTriggerPathList": [],
+                      "labelPosition": "Top",
+                      "key": "6edzlpos1a",
+                      "labelTextSize": "0.875rem",
+                      "isDeprecated": false,
+                      "rightColumn": 58,
+                      "widgetId": "x77hu2f0u1",
+                      "minWidth": 450,
+                      "label": "Label",
+                      "parentId": "xru650dbep",
+                      "labelAlignment": "left",
+                      "renderMode": "CANVAS",
+                      "mobileTopRow": 31,
+                      "responsiveBehavior": "fill",
+                      "mobileLeftColumn": 38,
+                      "maxDynamicHeight": 9000,
+                      "iconAlign": "left",
+                      "defaultText": "{{JSObject1.myVar1[0]}}",
                       "minDynamicHeight": 4
                     }
                   ],
