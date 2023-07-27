@@ -296,7 +296,7 @@
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
-                  "textSize": "0.875rem",
+                  "textSize": "0.5rem",
                   "enableFilter": true,
                   "enableSort": true,
                   "isVisible": true,
